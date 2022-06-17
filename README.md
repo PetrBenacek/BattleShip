@@ -2,4 +2,7 @@
 
 
 ## Co bychom měli nastudovat:
- [] ahoj
+[] Pole
+[] Properties
+[] Dědičnost
+[] Interface
