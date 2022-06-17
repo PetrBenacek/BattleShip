@@ -1,3 +1,12 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using System;
 
-Console.WriteLine("Hello, World!");
+namespace BattleShipConsole 
+{
+    internal static class Program
+    {
+        static void Main(string[] args)
+        {
+            Game game = new Game();
+        }
+    }
+}
