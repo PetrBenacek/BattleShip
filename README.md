@@ -6,3 +6,5 @@
 * [ ] Properties
 * [ ] Dědičnost
 * [ ] Interface
+---
+* [ ] Partial Class
