@@ -1,5 +1,5 @@
 # BattleShip
 
 
-# Co bychom měli nastudovat:
+## Co bychom měli nastudovat:
  [] ahoj
