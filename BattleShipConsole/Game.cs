@@ -20,7 +20,6 @@ namespace BattleShipConsole
         
         private void Start()
         {
-            
         }
     }
 }
