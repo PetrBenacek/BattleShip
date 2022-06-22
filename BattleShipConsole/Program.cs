@@ -7,7 +7,7 @@ namespace BattleShipConsole
         static void Main(string[] args)
         {
             Game game = new Game();
-            Console.WriteLine("Test Git");
+            Console.WriteLine("Test Pull");
         }
     }
 }
