@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{833CF990-764E-4953-8152-E2960FA54E6A}|Default">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="BattleShipConsole/Game.cs">
+    <Files>
+      <File FileName="BattleShipConsole/Game.cs" Line="23" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="BattleShip" expanded="True">
+            <Node name="BattleShipConsole" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.BattleShipConsole PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>
