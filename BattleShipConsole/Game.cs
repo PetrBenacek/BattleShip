@@ -15,7 +15,7 @@ namespace BattleShipConsole
             player1.SetName(player1Name);
             player2 = new Player();
             player2.SetName(player2Name);
-            Console.WriteLine($"vytvorena nova hra pro 2 hráče: {player1.GetName()} a {player2.GetName()}");
+            Console.WriteLine($"vytvorena nova hra pro dva hráče: {player1.GetName()} a {player2.GetName()}");
         }
         
         private void Start()
