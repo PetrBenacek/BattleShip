@@ -2,20 +2,31 @@ namespace BattleShipConsole
 {
     public class Game
     {
-        private Player player1;
-        private Player player2;
+        private Player player;
         
         public Game()
         {
-            Console.WriteLine("Zadejte jméno prvního hráče:");
-            string player1Name = Console.ReadLine();
-            Console.WriteLine("Zadejte jméno druhého hráče:");
-            string player2Name = Console.ReadLine();
-            player1 = new Player();
-            player1.SetName(player1Name);
-            player2 = new Player();
-            player2.SetName(player2Name);
-            Console.WriteLine($"Vytvořena nová hra pro dva hráče: {player1.GetName()} a {player2.GetName()}");
+            string[] jmena = new string[10];
+
+
+            Console.WriteLine("vítej ve hře BattleShip");
+            int x = 0;
+            do
+            {
+                Console.WriteLine("zadej jméno hráče:");
+                string jmeno = Console.ReadLine();
+                player = new Player();
+                player.SetName(jmeno);
+
+                x++;
+                if (x == 9)
+                    {
+                    Console.WriteLine("poslední hráč");
+                    }
+            } while (x < 10) ;
+
+            Console.WriteLine("toto jsou hráči pro dnešní hru:");
+            Console.WriteLine("---konec");
         }
         
         private void Start()
