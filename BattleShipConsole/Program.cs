@@ -8,6 +8,7 @@ namespace BattleShipConsole
         {
             Game game = new Game();
 
+
         }
     }
 }
